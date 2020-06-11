@@ -21,5 +21,11 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-source-datocms',
+      options: {
+        apiToken: 'bd2c4bf1a38bf98814510fbac81a18',
+      },
+    },
   ],
 };
