@@ -8,10 +8,12 @@ import SkillSet from '../components/SkillSet';
 import CanIHelp from '../components/CanIHelp';
 
 import Contact from '../components/Contact';
+import CoomingSoon from '../components/coomingSoon';
 
 const IndexPage = () => (
   <Layout>
-    <Banner />
+    <CoomingSoon />
+    {/* <Banner />
     <PrevAbout />
     <SkillSet />
     <CanIHelp />
@@ -39,7 +41,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
