@@ -27,7 +27,7 @@ const Banner = () => {
           <p>{description}</p>
           <ul className="actions special">
             <li>
-              <Scroll type="id" element="one">
+              <Scroll type="id" element="contact">
                 <a href="/#" className="button primary">
                   {button}
                 </a>
