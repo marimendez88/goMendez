@@ -2,6 +2,9 @@
     "name": "MTEKH Solutions",
     "version": "0.0.1",
     "description": "Web Development  | Mobile Development | Agile",
+    "engines": {
+        "node": "12.16.1"
+    },
     "author": {
         "name": "Maria Jose Mendez",
         "email": "mj@mtekh.com"
