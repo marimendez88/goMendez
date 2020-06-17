@@ -12,13 +12,18 @@ import CoomingSoon from '../components/coomingSoon';
 
 const IndexPage = () => (
   <Layout>
-    <CoomingSoon />
-    {/* <Banner />
+    <Banner />
     <PrevAbout />
     <CanIHelp />
     <SkillSet />
     <Contact />
+  </Layout>
+);
 
+export default IndexPage;
+
+{
+  /* 
     {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
@@ -41,8 +46,5 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section> */}
-  </Layout>
-);
-
-export default IndexPage;
+    </section> */
+}
