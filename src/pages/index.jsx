@@ -15,11 +15,11 @@ const IndexPage = () => (
     <CoomingSoon />
     {/* <Banner />
     <PrevAbout />
-    <SkillSet />
     <CanIHelp />
+    <SkillSet />
     <Contact />
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Arcue ut vel commodo</h2>

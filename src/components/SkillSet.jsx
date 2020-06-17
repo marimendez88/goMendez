@@ -9,8 +9,6 @@ import UseSkill from '../hooks/useSkill';
 const SkillSet = () => {
   const skills = UseSkill();
 
-  console.log(skills);
-
   return (
     <Fragment>
       <section id="two" className="wrapper alt style2">
