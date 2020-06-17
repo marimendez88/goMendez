@@ -27,5 +27,17 @@ module.exports = {
         apiToken: 'bd2c4bf1a38bf98814510fbac81a18',
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-MZ6KX2K',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-169840042-1',
+      },
+    },
   ],
 };
