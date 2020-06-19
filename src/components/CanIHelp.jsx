@@ -12,9 +12,8 @@ const CanIHelp = () => {
           <header className="major">
             <h2>Services</h2>
             <p>
-              We build amazing apps, products, and services for the companies
-              around the world. Over the past 5 years, we've helped a lot of
-              companies for building their 100+ projects.
+              We build amazing apps, products, and services for companies around
+              the world. Over the past 5 years, we've built 100+ projects.
             </p>
           </header>
           <ul className="features">

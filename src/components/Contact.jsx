@@ -5,7 +5,7 @@ const Contact = () => {
     <Fragment>
       <section id="contact" className="wrapper style5">
         <div className="inner">
-          <h4>Contact me</h4>
+          <h4>Contact Us</h4>
           <form
             method="post"
             action="https://getform.io/f/0236476e-8b1c-4b18-b65d-bbd1ae00e49f"
@@ -16,6 +16,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   id="name"
+                  required
                   defaultValue=""
                   placeholder="Name"
                 />
@@ -25,6 +26,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   id="email"
+                  required
                   defaultValue=""
                   placeholder="Email"
                 />
@@ -34,6 +36,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="message"
+                  required
                   placeholder="Enter your message"
                   rows="6"
                 ></textarea>
