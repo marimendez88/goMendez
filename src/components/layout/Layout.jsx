@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-import '../assets/sass/main.scss';
+import '../../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 
@@ -68,7 +68,7 @@ class Layout extends Component {
               }
             >
               <div id="page-wrapper">
-                {/* <SideBar fullMenu={fullMenu} /> */}
+                <SideBar fullMenu={fullMenu} />
                 {children}
                 <Footer />
               </div>
