@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import UseSocial from '../hooks/useSocial';
+import UseSocial from '../..//hooks/useSocial';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -24,12 +24,13 @@ const Footer = () => {
     <footer id="footer">
       <ul className="icons">
         {social.map(social => {
-          const { name, user, link, icon, style } = social;
+          const { name, link, icon, style } = social;
           return (
             <li key={link}>
               <a
                 href={link}
                 target="_blank"
+                rel="noreferrer"
                 className={`icon ${style} ${icon}`}
               >
                 <span className="label">{name}</span>

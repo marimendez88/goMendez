@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 
-import UseAbout from '../hooks/useAbout';
+import UseAbout from '../../hooks/useAbout';
 
 const PrevAbout = () => {
   const about = UseAbout();

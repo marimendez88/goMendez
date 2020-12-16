@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
-
-import UseSkill from '../hooks/useSkill';
+import UseSkill from '../../hooks/useSkill';
 
 const UniqueSkill = ({}) => {
   const skills = UseSkill();

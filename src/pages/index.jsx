@@ -1,14 +1,11 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
-
-import Banner from '../components/Banner';
-import PrevAbout from '../components/PrevAbout';
-import SkillSet from '../components/SkillSet';
+import Layout from '../components/layout/Layout';
+import Banner from '../components/layout/Banner';
+import PrevAbout from '../components/about/PrevAbout';
+import SkillSet from '../components/skills/SkillSet';
 import CanIHelp from '../components/CanIHelp';
-
-import Contact from '../components/Contact';
-import CoomingSoon from '../components/coomingSoon';
+import Contact from '../components/layout/Contact';
 
 const IndexPage = () => (
   <Layout>
@@ -21,30 +18,3 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
-
-{
-  /* 
-    {/* <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section> */
-}

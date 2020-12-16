@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Scroll from './Scroll';
+import Scroll from '../utils/Scroll';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const Banner = () => {
