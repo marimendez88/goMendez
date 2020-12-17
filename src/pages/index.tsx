@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout';
 import Banner from '../components/layout/Banner';
 import PrevAbout from '../components/about/PrevAbout';
 import SkillSet from '../components/skills/SkillSet';
-import CanIHelp from '../components/CanIHelp';
+import CanIHelp from '../components/helps/CanIHelp';
 import Contact from '../components/layout/Contact';
 
 const IndexPage = () => (
