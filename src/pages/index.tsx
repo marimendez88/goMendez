@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import Layout from '../components/layout/Layout';
 import Banner from '../components/layout/Banner';
 import PrevAbout from '../components/about/PrevAbout';
 import SkillSet from '../components/skills/SkillSet';
 import CanIHelp from '../components/helps/CanIHelp';
 import Contact from '../components/layout/Contact';
+import Layout from '../components/layout/Layout';
+import '../assets/sass/main.scss';
 
 const IndexPage = () => (
-  <Layout>
+  <Fragment>
     <Banner />
     <PrevAbout />
     <CanIHelp />
     <SkillSet />
     <Contact />
-  </Layout>
+  </Fragment>
 );
 
 export default IndexPage;
