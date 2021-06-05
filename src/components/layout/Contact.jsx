@@ -5,7 +5,7 @@ const Contact = () => {
     <Fragment>
       <section id="contact" className="wrapper style5">
         <div className="inner">
-          <h4>Contact Us</h4>
+          <h4>Contact me</h4>
           <form
             method="post"
             action="https://getform.io/f/0236476e-8b1c-4b18-b65d-bbd1ae00e49f"

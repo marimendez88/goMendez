@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import UseSocial from '../..//hooks/useSocial';
+import UseSocial from '../../hooks/useSocial';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`

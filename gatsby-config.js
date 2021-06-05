@@ -40,11 +40,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-hubspot',
+      resolve: `gatsby-plugin-typescript`,
       options: {
-        trackingCode: '7927469',
-        respectDNT: true,
-        productionOnly: true,
+        isTSX: true,
+        jsxPragma: `jsx`,
+        allExtensions: true,
       },
     },
   ],
