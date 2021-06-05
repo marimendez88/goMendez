@@ -6,14 +6,16 @@ import SkillSet from '../skills/SkillSet';
 import CanIHelp from '../helps/CanIHelp';
 import Contact from '../layout/Contact';
 
-const LayoutPage = () => (
-  <Fragment>
-    <Banner />
-    <PrevAbout />
-    <CanIHelp />
-    <SkillSet />
-    <Contact />
-  </Fragment>
-);
+const LayoutPage = () => {
+  return (
+    <Fragment>
+      <Banner />
+      <PrevAbout />
+      <CanIHelp />
+      <SkillSet />
+      <Contact />
+    </Fragment>
+  );
+};
 
 export default LayoutPage;
