@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import UniqueCanIHelp from './UniqueCanIHelp';
-import UseService from '../hooks/useService';
+import UseService from '../../hooks/useService';
 
 const CanIHelp = () => {
   const services = UseService();

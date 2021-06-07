@@ -1322,7 +1322,7 @@ button,
         background-color: _palette(bg);
     }
     &.style3 {
-        @include wrapper(accent5);
+        @include wrapper(accent7);
     }
     &.style4 {
         background-color: transparent;
@@ -1738,7 +1738,7 @@ body.is-preload,
         0);
         @include vendor( 'background-image',
         ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/sunset_banner.jpg")'));
+        'url("../images/banner.jpg")'));
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1856,7 +1856,7 @@ body.landing,
     #page-wrapper {
         @include vendor( 'background-image',
         ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/sunset_banner.jpg")'));
+        'url("../images/banner.jpg")'));
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1865,6 +1865,24 @@ body.landing,
     }
     #footer {
         background-color: darken(transparentize(_palette(bg), 0.1), 8);
+    }
+}
+
+body.is-mobile {
+    &.landing {
+        #page-wrapper {
+            @include vendor( 'background-image',
+            ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+            'url("../images/sunset_banner.jpg")'));
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 0;
+        }
+        #footer {
+            background-color: darken(_palette(bg), 8);
+        }
     }
 }
 

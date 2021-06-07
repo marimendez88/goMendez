@@ -9,5 +9,5 @@ module.exports = {
   manifestIcon: 'src/assets/img/mtekh_icon.png',
   pathPrefix: `/MTEKH.com/`,
   heading: 'Maria Jose Mendez',
-  subHeading: 'Full time Web Developer.',
+  subHeading: 'Software Engineer',
 };

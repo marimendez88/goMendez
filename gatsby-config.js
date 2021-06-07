@@ -39,5 +39,13 @@ module.exports = {
         trackingId: 'UA-169840042-1',
       },
     },
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true,
+        jsxPragma: `jsx`,
+        allExtensions: true,
+      },
+    },
   ],
 };
