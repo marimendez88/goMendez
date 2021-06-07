@@ -36,6 +36,7 @@ const Footer = () => {
                 <span className="label">{name}</span>
               </a>
             </li>
+            
           );
         })}
       </ul>

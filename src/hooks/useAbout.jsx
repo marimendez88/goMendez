@@ -5,13 +5,14 @@ const useAbout = () => {
     query About {
       allDatoCmsAbout {
         nodes {
-          title
-          subtitle
-          description
-          whoami
-          me
-          about
-          author
+          titleH2
+          paragraph1
+          titleH3
+          paragraph2
+          titleH32
+          paragraph3
+          titleH4
+          paragraph4
         }
       }
     }

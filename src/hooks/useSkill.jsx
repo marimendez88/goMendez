@@ -13,6 +13,7 @@ const useSkill = () => {
               srcSet
             }
           }
+          id
         }
       }
     }
