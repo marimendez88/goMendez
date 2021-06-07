@@ -49,7 +49,7 @@ class Layout extends Component {
                 {
                   name: 'description',
                   content:
-                    'Web design and development,We offer fresh solutions, the expertise, speed & responsiveness of a global company, and the forward thinking and agility of a technology startup. ',
+                    'Web design and development,I offer fresh solutions, the expertise, speed & responsiveness of a global company, and the forward thinking and agility of a technology startup. ',
                 },
                 {
                   name: 'keywords',
@@ -68,7 +68,7 @@ class Layout extends Component {
               }
             >
               <div id="page-wrapper">
-                <SideBar fullMenu={fullMenu} />
+
                 {children}
                 <Footer />
               </div>

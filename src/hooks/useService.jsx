@@ -8,11 +8,11 @@ const useService = () => {
           title
           description
           icon
+          id
         }
       }
     }
   `);
-
   return data.allDatoCmsServicio.nodes;
 };
 

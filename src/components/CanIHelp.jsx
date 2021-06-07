@@ -10,10 +10,10 @@ const CanIHelp = () => {
       <section id="three" className="wrapper style3 special">
         <div className="inner">
           <header className="major">
-            <h2>Services</h2>
+            <h2>How can I help you?</h2>
             <p>
-              We build amazing apps, products, and services for companies around
-              the world. Over the past 5 years, we've built 100+ projects.
+              I can help you build amazing apps, products, and services for companies around
+              the world. Over the past 6 years, I've built 100+ projects.
             </p>
           </header>
           <ul className="features">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import UseSocial from '../..//hooks/useSocial';
+import UseSocial from '../../hooks/useSocial';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -36,6 +36,7 @@ const Footer = () => {
                 <span className="label">{name}</span>
               </a>
             </li>
+            
           );
         })}
       </ul>

@@ -7,7 +7,7 @@ const UniqueSkill = ({}) => {
   return (
     <Fragment>
       {skills.map(skill => (
-        <section className="spotlight">
+        <section key={skill.id}  className="spotlight">
           <div className="image">
             <img src={skill.imagen.fluid.srcSet} alt="" />
           </div>

@@ -1738,7 +1738,7 @@ body.is-preload,
         0);
         @include vendor( 'background-image',
         ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/banner.jpg")'));
+        'url("../images/sunset_banner.jpg")'));
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1856,7 +1856,7 @@ body.landing,
     #page-wrapper {
         @include vendor( 'background-image',
         ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/banner.jpg")'));
+        'url("../images/sunset_banner.jpg")'));
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1877,7 +1877,7 @@ body.is-mobile {
         .wrapper.style4 {
             @include vendor( 'background-image',
             ( 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-            'url("../images/banner.jpg")'));
+            'url("../images/sunset_banner.jpg")'));
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
