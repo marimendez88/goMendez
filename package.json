@@ -12,11 +12,11 @@
     "dependencies": {
         "@types/date-fns": "^2.6.0",
         "date-fns": "^2.14.0",
-        "gatsby": "^2.29.1",
+        "gatsby": "^5.11.0",
         "gatsby-plugin-google-analytics": "^2.3.4",
         "gatsby-plugin-google-tagmanager": "^2.3.5",
         "gatsby-plugin-hubspot": "^1.3.4",
-        "gatsby-plugin-manifest": "^2.3.1",
+        "gatsby-plugin-manifest": "^2.9.0",
         "gatsby-plugin-offline": "^3.1.0",
         "gatsby-plugin-react-helmet": "^3.2.0",
         "gatsby-plugin-sass": "^2.2.0",
